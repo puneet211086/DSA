@@ -13,7 +13,7 @@ def lastIndex(a,x):
         return lastIndex(smallList,x)+1
 
 
-a = [1,2,3,4,7,5]
+a = [1,2,3,4]
 x=3
 print(lastIndex(a,x))
     

@@ -1,9 +1,9 @@
 def numberInAnArray(a,x):
-    if a[0]==x:
-        return True
-    if numberInAnArray(a[1:],x) == False:
-        return False
-    return True
+    l = len(a)
+    if l == 1:
+        return a[0]==x
+    
+    
         
 
 
